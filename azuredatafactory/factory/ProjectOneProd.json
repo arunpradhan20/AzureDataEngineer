@@ -1,0 +1,9 @@
+{
+	"name": "ProjectOneProd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eddcaf15-e65a-42e1-b051-50ef9dc98afa",
+		"tenantId": "706f00c5-bd5f-415a-a853-f137cb8d7d42"
+	}
+}
