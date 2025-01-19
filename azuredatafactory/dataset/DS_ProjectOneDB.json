@@ -1,0 +1,66 @@
+{
+	"name": "DS_ProjectOneDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSqlDb_ProjectOne",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "car",
+				"type": "varchar"
+			},
+			{
+				"name": "mpg",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "cyl",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "disp",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "hp",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "wt",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "qsec",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
+			},
+			{
+				"name": "model",
+				"type": "varchar"
+			},
+			{
+				"name": "origin",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "cars"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
