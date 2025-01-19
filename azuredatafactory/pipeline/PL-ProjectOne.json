@@ -1,6 +1,7 @@
 {
 	"name": "PL-ProjectOne",
 	"properties": {
+		"description": "Adding Comment for github testing",
 		"activities": [
 			{
 				"name": "CopyData",
