@@ -1,0 +1,9 @@
+{
+	"name": "ADFFFAgan",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "552b39ab-01be-4f50-9fff-88d9234f60de",
+		"tenantId": "706f00c5-bd5f-415a-a853-f137cb8d7d42"
+	}
+}
